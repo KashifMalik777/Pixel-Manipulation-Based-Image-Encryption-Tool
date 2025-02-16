@@ -94,6 +94,16 @@ http://127.0.0.1:5000
 4. Encrypted image `image_encrypted.jpg` is available for download.
 5. User later uploads `image_encrypted.jpg` and enters the same key (`123`) to decrypt it and recover the original image.
 
+---
+
+## 🎨 Demo
+
+Here’s a quick preview of the user interface:
+
+![Pixel Manipulation-Based Image Encryption Tool](caeserciphertool.gif)
+
+---
+
 ## Security Considerations 🔒
 
 - **Key Safety**: The security of the encrypted image depends heavily on the strength and secrecy of the key/seed. It is important to keep the key private.
