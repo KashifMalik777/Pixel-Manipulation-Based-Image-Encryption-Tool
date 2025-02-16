@@ -69,7 +69,7 @@ Pillow==8.4.0
 After installing the dependencies, you can run the Flask app:
 
 ```bash
-python app.py
+python pixel_manipulation.py
 ```
 
 This will start a development server. By default, the app will be available at:
@@ -89,26 +89,19 @@ http://127.0.0.1:5000
 ## Example Workflow ⚙️
 
 1. User uploads `image.jpg`.
-2. User enters a key: `mysecurekey123`.
+2. User enters a key: `123`.
 3. Tool encrypts the image using XOR and pixel swapping.
 4. Encrypted image `image_encrypted.jpg` is available for download.
-5. User later uploads `image_encrypted.jpg` and enters the same key (`mysecurekey123`) to decrypt it and recover the original image.
+5. User later uploads `image_encrypted.jpg` and enters the same key (`123`) to decrypt it and recover the original image.
 
 ## Security Considerations 🔒
 
 - **Key Safety**: The security of the encrypted image depends heavily on the strength and secrecy of the key/seed. It is important to keep the key private.
 - **Encryption Strength**: The tool employs basic XOR encryption and pixel manipulation, which is suitable for casual image protection. However, for high-security needs, consider using more advanced cryptographic methods.
 
-## Future Enhancements 🌟
-
-- Support for additional encryption methods (e.g., AES, RSA).
-- Implementation of digital signatures for watermarking and authenticity.
-- Batch image encryption for multiple files.
-- Enhanced user interface with image preview and additional settings.
-
 ## Contributing 🤝
 
-We welcome contributions! If you have ideas for improvements, fixes, or new features, feel free to open an issue or submit a pull request.
+I welcome contributions! If you have ideas for improvements, fixes, or new features, feel free to open an issue or submit a pull request.
 
 ### Steps to Contribute:
 
@@ -118,10 +111,6 @@ We welcome contributions! If you have ideas for improvements, fixes, or new feat
 4. Commit your changes: `git commit -m 'Add new feature'`.
 5. Push to your fork: `git push origin feature-name`.
 6. Open a pull request.
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
