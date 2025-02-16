@@ -8,9 +8,9 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
   <style>
-    /* Page Background */
+    
     body {
-      background: #000; /* Solid black background */
+      background: #000;
       font-family: 'Roboto', sans-serif;
       color: #fff;
       margin: 0;
@@ -18,20 +18,18 @@
       min-height: 100vh;
     }
 
-    /* Header Text Above Panel */
     .page-header {
       text-align: center;
       margin: 40px 0 20px 0;
-      color: #0d6efd; /* Bright blue */
+      color: #0d6efd;
       font-size: 2rem;
       font-weight: 500;
     }
 
-    /* Main Panel Container (Dark Panel) */
     .main-container {
       max-width: 600px;
       margin: 0 auto 40px auto;
-      background: #000; /* Black panel */
+      background: #000;
       border: 1px solid #333;
       border-radius: 8px;
       padding: 2rem;
@@ -39,7 +37,6 @@
       text-align: center;
     }
 
-    /* Processed Image */
     .result-img {
       max-width: 100%;
       border: 2px dashed #444;
@@ -47,9 +44,8 @@
       margin-bottom: 20px;
     }
 
-    /* Buttons */
     .btn-custom {
-      background: #0d6efd; /* Bright blue button */
+      background: #0d6efd;
       color: #fff;
       border: none;
       transition: background 0.3s ease;
@@ -58,7 +54,6 @@
       background: #0b5ed7;
     }
 
-    /* Key Display */
     .key-display {
       font-size: 1.1em;
       margin-top: 15px;
@@ -73,7 +68,7 @@
 
   <!-- Main Dark Panel Container -->
   <div class="main-container">
-    <!-- Display the processed image using a data URL -->
+    <!-- Display the processed image using data URL -->
     <img src="data:image/png;base64,{{ image_data }}" alt="Processed Image" class="result-img">
 
     <!-- Download button using a data URL -->
