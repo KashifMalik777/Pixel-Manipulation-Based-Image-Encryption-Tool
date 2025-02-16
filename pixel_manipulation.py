@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Replace with a strong secret key
 
 def xor_encrypt(image, key):
-    """Encrypts (or decrypts) the image by applying XOR on each pixel channel."""
+    # Encrypts (or decrypts) the image by applying XOR on each pixel channel.
     img = image.convert("RGB")
     width, height = img.size
     pixels = img.load()
@@ -21,7 +21,7 @@ def xor_encrypt(image, key):
     return encrypted_img
 
 def swap_pixels_encrypt(image, seed):
-    """Encrypts the image by shuffling (swapping) pixels based on a random seed."""
+    # Encrypts the image by shuffling (swapping) pixels based on a random seed.
     img = image.convert("RGB")
     width, height = img.size
     pixels = list(img.getdata())
@@ -36,7 +36,7 @@ def swap_pixels_encrypt(image, seed):
     return encrypted_img
 
 def swap_pixels_decrypt(image, seed):
-    """Decrypts an image that was encrypted by pixel swapping using the same seed."""
+    # Decrypts an image that was encrypted by pixel swapping using the same seed.
     img = image.convert("RGB")
     width, height = img.size
     pixels = list(img.getdata())
