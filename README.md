@@ -114,4 +114,25 @@ I welcome contributions! If you have ideas for improvements, fixes, or new featu
 
 ---
 
-Feel free to adjust any sections according to your preferences or add further details!
+### Tags 🏷️
+- `#ImageEncryption`
+- `#XOREncryption`
+- `#PixelManipulation`
+- `#WebApp`
+- `#Python`
+- `#Flask`
+- `#Pillow`
+- `#Bootstrap`
+- `#DataPrivacy`
+- `#ImageSecurity`
+- `#Cryptography`
+- `#DigitalWatermarking`
+- `#EncryptionTool`
+- `#PrivacyProtection`
+- `#ImageProcessing`
+
+---
+
+## 💬 Questions or Feedback?
+
+Feel free to reach out via GitHub Issues or contact me directly at [md.kashif123490@gmail.com](mailto:your-email@example.com).
