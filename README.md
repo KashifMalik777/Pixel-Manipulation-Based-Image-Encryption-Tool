@@ -100,7 +100,7 @@ http://127.0.0.1:5000
 
 Here’s a quick preview of the user interface:
 
-![Pixel Manipulation-Based Image Encryption Tool](Pixel Manipulation-Based Image Encryption Tool.gif)
+![Pixel Manipulation-Based Image Encryption Tool](PixelManipulation.gif)
 
 ---
 
