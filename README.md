@@ -1,6 +1,4 @@
 # PRODIGY_CS_02
-Here's a comprehensive README for your project:
-
 ---
 
 # Pixel Manipulation-Based Image Encryption Tool 🛡️🖼️
