@@ -44,7 +44,7 @@ This project is built using **Python** (Flask), **PIL** (Python Imaging Library)
 
 ```bash
 git clone https://github.com/KashifMalik777/PRODIGY_CS_02.git
-cd pixel-encryption-tool
+cd PRODIGY_CS_02-main
 ```
 
 ### Install Dependencies
