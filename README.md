@@ -43,7 +43,7 @@ This project is built using **Python** (Flask), **PIL** (Python Imaging Library)
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/pixel-encryption-tool.git
+git clone https://github.com/KashifMalik777/PRODIGY_CS_02.git
 cd pixel-encryption-tool
 ```
 
